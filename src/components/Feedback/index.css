@@ -1,0 +1,47 @@
+/* Write your CSS code here. */
+.feedback-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffebeb, #ffc0bb);
+  background-size: cover;
+}
+.expressions-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  list-style-type: none;
+}
+.heading {
+  color: #0f172a;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 27px;
+}
+.content-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.emoji-image {
+  height: 45px;
+  width: 45px;
+}
+.thank-heading {
+  color: #0f172a;
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+.thank-description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
